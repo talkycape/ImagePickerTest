@@ -14,6 +14,7 @@
 		DAA53879295A809F0036093E /* ImagePickerTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA53878295A809F0036093E /* ImagePickerTestTests.swift */; };
 		DAA53883295A809F0036093E /* ImagePickerTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA53882295A809F0036093E /* ImagePickerTestUITests.swift */; };
 		DAA53885295A809F0036093E /* ImagePickerTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA53884295A809F0036093E /* ImagePickerTestUITestsLaunchTests.swift */; };
+		DAA53893295A9A820036093E /* ImagePickerBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA53892295A9A820036093E /* ImagePickerBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		DAA5387E295A809F0036093E /* ImagePickerTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePickerTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA53882295A809F0036093E /* ImagePickerTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerTestUITests.swift; sourceTree = "<group>"; };
 		DAA53884295A809F0036093E /* ImagePickerTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAA53891295A85E60036093E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DAA53892295A9A820036093E /* ImagePickerBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +97,10 @@
 		DAA53866295A809E0036093E /* ImagePickerTest */ = {
 			isa = PBXGroup;
 			children = (
+				DAA53891295A85E60036093E /* Info.plist */,
 				DAA53867295A809E0036093E /* ImagePickerTestApp.swift */,
 				DAA53869295A809E0036093E /* ContentView.swift */,
+				DAA53892295A9A820036093E /* ImagePickerBook.swift */,
 				DAA5386B295A809F0036093E /* Assets.xcassets */,
 				DAA5386D295A809F0036093E /* Preview Content */,
 			);
@@ -257,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA53893295A9A820036093E /* ImagePickerBook.swift in Sources */,
 				DAA5386A295A809E0036093E /* ContentView.swift in Sources */,
 				DAA53868295A809E0036093E /* ImagePickerTestApp.swift in Sources */,
 			);
@@ -420,7 +426,7 @@
 				DEVELOPMENT_TEAM = R6H5BYZ5TH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = ImagePickerTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -449,7 +455,7 @@
 				DEVELOPMENT_TEAM = R6H5BYZ5TH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = ImagePickerTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
